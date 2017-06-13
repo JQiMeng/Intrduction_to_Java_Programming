@@ -32,15 +32,15 @@ Set接口扩展了Collection接口。他没有引入新的方法或常量，只�
 
 Set接口的三个具体实现类是：散列类HashSet、链式散列集LinkedHashSet、树形集TreeSet。
 
-#2.4.1 散列集HashSet
+###2.4.1 散列集HashSet
 散列集中的元素没有特定的顺序，如果强加顺序，要使用LinkedHashSet。
 
 for-each循环可用在数组上，也可以用在任何Collection的实例上
 
-#2.4.2链式散列集LinkedHashSet
+###2.4.2链式散列集LinkedHashSet
 用链表来扩展HashSet类
 
-#2.4.3树形集TreeSet
+###2.4.3树形集TreeSet
 比较TreeSet中的对象可以使用Comparable接口，或者指定一个比较器
 
 2.5比较器接口Comparator
